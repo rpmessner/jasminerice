@@ -1,6 +1,6 @@
 module Jasminerice
   class SpecController <  Jasminerice::ApplicationController
-    helper Rails.application.routes.url_helper rescue nil
+    helper Rails.application.routes.url_helpers rescue nil
     helper Jasminerice::SpecHelper rescue nil
 
     layout false
